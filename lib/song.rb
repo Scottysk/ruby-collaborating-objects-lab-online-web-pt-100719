@@ -26,6 +26,7 @@ class Song
     song_obj = self.new(name_for_name)
     artist_obj = Artist.new(info[0])
     song_obj.artist = artist_obj
+    song_obj
   end
   
   
