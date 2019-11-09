@@ -3,7 +3,7 @@ class Song
   # attr_writer :artist
   
   def initialize(song_name)
-    
+    @name = song_name
   end
   
   
