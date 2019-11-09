@@ -30,6 +30,7 @@ class Song
   end
   
   def artist_name=(a_name)
+    @artist
   end
   
   
