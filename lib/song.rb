@@ -29,7 +29,7 @@ class Song
     song_obj
   end
   
-  def artist_name=(a_name)
+  def artist_name=(name)
     @artist = a_name
     a_name.artist.push(self)
   end
