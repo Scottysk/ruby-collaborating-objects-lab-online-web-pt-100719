@@ -32,7 +32,7 @@ class Artist
   end
   
   def print_songs
-    @songs.each 
+    @songs.each {|obj|
   
   
   
