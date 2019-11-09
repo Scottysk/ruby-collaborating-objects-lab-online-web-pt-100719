@@ -23,6 +23,7 @@ class Song
   def self.new_by_filename(new_filename)
     info = new_filename.split(" - ")
     name_for_name = info[1]
+    song_obj
   end
   
   
