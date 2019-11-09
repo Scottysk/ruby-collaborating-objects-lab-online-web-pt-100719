@@ -13,6 +13,8 @@ class Song
     artist_obj.songs.push(self)
   end
   
+  def self.all
+  
   
   
 end
