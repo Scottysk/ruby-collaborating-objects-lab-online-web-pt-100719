@@ -30,8 +30,7 @@ class Song
   end
   
   def artist_name=(name)
-    @artist = a_name
-    a_name.artist.push(self)
+    self.
   end
   
   
