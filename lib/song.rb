@@ -29,6 +29,9 @@ class Song
     song_obj
   end
   
+  def artist_name=(a_name)
+  end
+  
   
   
 end
